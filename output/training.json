@@ -1,0 +1,22 @@
+{
+  "original_images": 256,
+  "train_images": 128,
+  "augmented_training_features": 512,
+  "calibration_images": 64,
+  "test_images": 64,
+  "temperature": 0.5,
+  "threshold": 0.85,
+  "iterations": 250,
+  "model_export_max_abs_error": 0.0,
+  "uncalibrated": {
+    "accuracy": 0.734375,
+    "brier": 0.14477983413596146,
+    "ece": 0.09059108572660898
+  },
+  "calibrated": {
+    "accuracy": 0.734375,
+    "brier": 0.1352713426832869,
+    "ece": 0.05041657107413045
+  },
+  "source": "actual Gazebo RGB images via ros_gz_bridge; no synthetic overlay on sensor frames"
+}

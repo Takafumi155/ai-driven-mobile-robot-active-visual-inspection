@@ -1,0 +1,20 @@
+{
+  "teacher": {
+    "trials": 8,
+    "reached": 8,
+    "reached_without_contact": 8,
+    "contact_messages": 0,
+    "mean_distance_m": 4.103896513957883,
+    "mean_sim_seconds": 15.2325,
+    "correct_final_decisions": 8
+  },
+  "bc": {
+    "trials": 8,
+    "reached": 8,
+    "reached_without_contact": 8,
+    "contact_messages": 0,
+    "mean_distance_m": 4.121857408872071,
+    "mean_sim_seconds": 15.24,
+    "correct_final_decisions": 8
+  }
+}

@@ -1,0 +1,7 @@
+# Artifact generation on the validated Windows Python 3.11 environment
+numpy==2.4.6
+Pillow==13.0.0
+imageio==2.38.1
+imageio-ffmpeg==0.6.0
+reportlab==5.1.0
+pymupdf==2.0

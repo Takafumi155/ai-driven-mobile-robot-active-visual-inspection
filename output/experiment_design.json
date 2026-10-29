@@ -1,0 +1,48 @@
+{
+  "stage": "frozen v2 before fresh-seed Gazebo evaluation",
+  "development_failure_trials": 26,
+  "policies": [
+    "single",
+    "always",
+    "selective"
+  ],
+  "seeds": [
+    2301,
+    2302,
+    2303
+  ],
+  "scene_count": 48,
+  "policy_trials": 144,
+  "factors": {
+    "blocked": [
+      false,
+      true
+    ],
+    "distance": [
+      3.5,
+      4.5
+    ],
+    "light": [
+      0.45,
+      1.0
+    ],
+    "label": [
+      0,
+      1
+    ]
+  },
+  "threshold": 0.85,
+  "maximum_reobservations": 1,
+  "image_features": "66 pooled intensity/gradient statistics",
+  "sha256": {
+    "runner.py": "cfd11eb39dd88a9c5de9061c61eb9830d9349d41f82c5692f49b01f1babcdcee",
+    "runtime.py": "6058bf1f06e2ec2a8531d0aa2e289f75a317d5978474c7d73e701ee794214a87",
+    "world.py": "2e29295ff4a48802bf8ea146dfec4f47f6916c2be14c9779dfc9b1c713dd4a1b",
+    "output/camera_model.npz": "e3dbd7e5015bda5827ec5b0074aad9c1b70fac3b8fff365bf0543a0e89fe4130"
+  },
+  "canonical_text_sha256": {
+    "runner.py": "5959b60b7590bfb65c716952e50fab975714e7d511a7dd62d2ffbf15ecd3354f",
+    "runtime.py": "bcea8f0ae474a443c7658b0c80040e6170b97181d977597d2ffabc4bcf1209c4",
+    "world.py": "9e2576952ebd9b09f535bac05c34b54491813cdf68b29b610fe688e83c9dc551"
+  }
+}

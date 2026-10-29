@@ -1,0 +1,79 @@
+{
+  "status": "PASS",
+  "seconds": 127,
+  "frames": 1524,
+  "fps": 12,
+  "decoded_frames": 1524,
+  "motion_speed": "1x simulation time plus final explanatory holds",
+  "three_dimensional_motion_seconds": 100,
+  "segments": [
+    {
+      "kind": "card",
+      "seconds": 6,
+      "title": "見えなければ、回り込んでもう一度点検"
+    },
+    {
+      "kind": "clip",
+      "seconds": 18,
+      "title": "学習した走行方策で、遮蔽物を回り込む",
+      "subtitle": "高解像度の3D実映像 / 追加デプロイ seed 7101",
+      "file": "hero3d_v2.npz",
+      "hero": true
+    },
+    {
+      "kind": "clip",
+      "seconds": 17,
+      "title": "同じ場面で比較：従来制御 / seed 5100",
+      "subtitle": "同じ経由点・地図・物理設定 / 新しい評価条件 / 全区間を再生",
+      "file": "frames_5100_teacher.npz",
+      "hero": false
+    },
+    {
+      "kind": "clip",
+      "seconds": 17,
+      "title": "同じ場面で比較：模倣学習 BC / seed 5100",
+      "subtitle": "同じ経由点・地図・物理設定 / 新しい評価条件 / 全区間を再生",
+      "file": "frames_5100_bc.npz",
+      "hero": false
+    },
+    {
+      "kind": "clip",
+      "seconds": 16,
+      "title": "同じ場面で比較：従来制御 / seed 5101",
+      "subtitle": "同じ経由点・地図・物理設定 / 新しい評価条件 / 全区間を再生",
+      "file": "frames_5101_teacher.npz",
+      "hero": false
+    },
+    {
+      "kind": "clip",
+      "seconds": 16,
+      "title": "同じ場面で比較：模倣学習 BC / seed 5101",
+      "subtitle": "同じ経由点・地図・物理設定 / 新しい評価条件 / 全区間を再生",
+      "file": "frames_5101_bc.npz",
+      "hero": false
+    },
+    {
+      "kind": "clip",
+      "seconds": 16,
+      "title": "画像の不確実性をきっかけに、自律的に再観測",
+      "subtitle": "既存の認識実験 / この区間の走行は従来制御 / 新規BC比較と区別",
+      "file": "original/trial_2301_1_3.5_1.0_1_selective.npz",
+      "hero": false
+    },
+    {
+      "kind": "card",
+      "seconds": 9,
+      "title": "新規16試行の実測結果と限界"
+    },
+    {
+      "kind": "rviz",
+      "seconds": 4
+    },
+    {
+      "kind": "card",
+      "seconds": 8,
+      "title": "認識の失敗も残して、再現可能にする"
+    }
+  ],
+  "all_robot_motion": "recorded Gazebo external/RGB cameras; no generated robot animation"
+}

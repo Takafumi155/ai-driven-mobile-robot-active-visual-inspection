@@ -1,0 +1,9 @@
+{
+  "running_after_seconds": 8,
+  "camera_frames": 176,
+  "odom_samples": 168,
+  "display": ":99",
+  "screenshot": "rviz.png",
+  "tf": "odom -> base_link live odometry",
+  "shutdown_needed_kill": false
+}

@@ -1,0 +1,19 @@
+{
+  "seeds": [
+    5100,
+    5101,
+    5102,
+    5103,
+    5104,
+    5105,
+    5106,
+    5107
+  ],
+  "controllers": [
+    "teacher",
+    "bc"
+  ],
+  "criterion": "all waypoints reached within timeout; contacts=0; separate final defect decision",
+  "bc_sha256": "17edad4abf75f359f39b837640a632e26ba06b5db675ea208729c88c105d440d",
+  "pipeline_sha256": "f91784a0f205a8ba1658b7fe8f791f855c507bab42759b9cea5ea16fac738890"
+}

@@ -1,0 +1,15 @@
+services:
+  research:
+    build:
+      context: .
+      dockerfile: extension/Dockerfile
+    image: second-look-imitation:jazzy
+    shm_size: 512m
+    environment:
+      OPENBLAS_NUM_THREADS: '1'
+      OMP_NUM_THREADS: '1'
+      SECOND_LOOK_ROOT: /work
+      PYTHONPATH: /work
+    volumes:
+      - .:/work
+    command: [python3, extension/pipeline.py, --help]

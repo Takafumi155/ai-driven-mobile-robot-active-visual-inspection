@@ -1,0 +1,14 @@
+{
+  "algorithm": "supervised behavior cloning, state MLPRegressor 3-48-2",
+  "seed": 4100,
+  "train_frames": 760,
+  "validation_frames": 243,
+  "validation_mse_per_action": [
+    0.000411590684270532,
+    3.1256252211064106e-05
+  ],
+  "iterations": 422,
+  "model_sha256": "17edad4abf75f359f39b837640a632e26ba06b5db675ea208729c88c105d440d",
+  "dataset_sha256": "54f7bd10ef5dc450b808ec585c8a07739fec9e9951746bb3aa3f8a98658a63b5",
+  "limitation": "known-map goal-error state BC; not vision-only or LeRobot ACT; face uses conventional controller"
+}

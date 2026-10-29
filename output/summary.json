@@ -1,0 +1,180 @@
+{
+  "overall": {
+    "single": {
+      "n": 48,
+      "defects": 24,
+      "detected": 8,
+      "defect_called_normal": 3,
+      "false_alarm": 0,
+      "unresolved": 22,
+      "detection_rate": 0.3333333333333333,
+      "coverage": 0.5416666666666667,
+      "mean_distance_m": 0.0,
+      "mean_seconds": 0.7090624999999999,
+      "contact_messages": 0,
+      "reobservations": 0
+    },
+    "always": {
+      "n": 48,
+      "defects": 24,
+      "detected": 24,
+      "defect_called_normal": 0,
+      "false_alarm": 0,
+      "unresolved": 0,
+      "detection_rate": 1.0,
+      "coverage": 1.0,
+      "mean_distance_m": 3.966120351139711,
+      "mean_seconds": 15.111770833333333,
+      "contact_messages": 0,
+      "reobservations": 48
+    },
+    "selective": {
+      "n": 48,
+      "defects": 24,
+      "detected": 21,
+      "defect_called_normal": 3,
+      "false_alarm": 0,
+      "unresolved": 0,
+      "detection_rate": 0.875,
+      "coverage": 1.0,
+      "mean_distance_m": 1.9214184011188415,
+      "mean_seconds": 7.489791666666666,
+      "contact_messages": 0,
+      "reobservations": 22
+    }
+  },
+  "by_seed": {
+    "2301": {
+      "single": {
+        "n": 16,
+        "defects": 8,
+        "detected": 2,
+        "defect_called_normal": 1,
+        "false_alarm": 0,
+        "unresolved": 8,
+        "detection_rate": 0.25,
+        "coverage": 0.5,
+        "mean_distance_m": 0.0,
+        "mean_seconds": 0.71625,
+        "contact_messages": 0,
+        "reobservations": 0
+      },
+      "always": {
+        "n": 16,
+        "defects": 8,
+        "detected": 8,
+        "defect_called_normal": 0,
+        "false_alarm": 0,
+        "unresolved": 0,
+        "detection_rate": 1.0,
+        "coverage": 1.0,
+        "mean_distance_m": 3.967321220809559,
+        "mean_seconds": 15.1165625,
+        "contact_messages": 0,
+        "reobservations": 16
+      },
+      "selective": {
+        "n": 16,
+        "defects": 8,
+        "detected": 7,
+        "defect_called_normal": 1,
+        "false_alarm": 0,
+        "unresolved": 0,
+        "detection_rate": 0.875,
+        "coverage": 1.0,
+        "mean_distance_m": 2.1078435072039614,
+        "mean_seconds": 8.138125,
+        "contact_messages": 0,
+        "reobservations": 8
+      }
+    },
+    "2302": {
+      "single": {
+        "n": 16,
+        "defects": 8,
+        "detected": 3,
+        "defect_called_normal": 1,
+        "false_alarm": 0,
+        "unresolved": 7,
+        "detection_rate": 0.375,
+        "coverage": 0.5625,
+        "mean_distance_m": 0.0,
+        "mean_seconds": 0.7075,
+        "contact_messages": 0,
+        "reobservations": 0
+      },
+      "always": {
+        "n": 16,
+        "defects": 8,
+        "detected": 8,
+        "defect_called_normal": 0,
+        "false_alarm": 0,
+        "unresolved": 0,
+        "detection_rate": 1.0,
+        "coverage": 1.0,
+        "mean_distance_m": 3.9660641274263355,
+        "mean_seconds": 15.12,
+        "contact_messages": 0,
+        "reobservations": 16
+      },
+      "selective": {
+        "n": 16,
+        "defects": 8,
+        "detected": 7,
+        "defect_called_normal": 1,
+        "false_alarm": 0,
+        "unresolved": 0,
+        "detection_rate": 0.875,
+        "coverage": 1.0,
+        "mean_distance_m": 1.8281402759795458,
+        "mean_seconds": 7.175,
+        "contact_messages": 0,
+        "reobservations": 7
+      }
+    },
+    "2303": {
+      "single": {
+        "n": 16,
+        "defects": 8,
+        "detected": 3,
+        "defect_called_normal": 1,
+        "false_alarm": 0,
+        "unresolved": 7,
+        "detection_rate": 0.375,
+        "coverage": 0.5625,
+        "mean_distance_m": 0.0,
+        "mean_seconds": 0.7034374999999999,
+        "contact_messages": 0,
+        "reobservations": 0
+      },
+      "always": {
+        "n": 16,
+        "defects": 8,
+        "detected": 8,
+        "defect_called_normal": 0,
+        "false_alarm": 0,
+        "unresolved": 0,
+        "detection_rate": 1.0,
+        "coverage": 1.0,
+        "mean_distance_m": 3.964975705183239,
+        "mean_seconds": 15.09875,
+        "contact_messages": 0,
+        "reobservations": 16
+      },
+      "selective": {
+        "n": 16,
+        "defects": 8,
+        "detected": 7,
+        "defect_called_normal": 1,
+        "false_alarm": 0,
+        "unresolved": 0,
+        "detection_rate": 0.875,
+        "coverage": 1.0,
+        "mean_distance_m": 1.8282714201730175,
+        "mean_seconds": 7.15625,
+        "contact_messages": 0,
+        "reobservations": 7
+      }
+    }
+  }
+}

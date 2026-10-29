@@ -1,0 +1,23 @@
+{
+  "source": "rosbag2 sqlite3 /imitation/sample; atomic state/action pairs",
+  "features": [
+    "distance/5",
+    "sin(heading_error)",
+    "cos(heading_error)"
+  ],
+  "actions": [
+    "linear.x m/s",
+    "angular.z rad/s"
+  ],
+  "episodes": {
+    "teacher_3100": 133,
+    "teacher_3101": 128,
+    "teacher_3102": 127,
+    "teacher_3103": 120,
+    "teacher_3104": 125,
+    "teacher_3105": 125,
+    "teacher_3106": 122,
+    "teacher_3107": 123
+  },
+  "split": "whole episode, every fourth demonstration held out; no evaluation episodes used"
+}

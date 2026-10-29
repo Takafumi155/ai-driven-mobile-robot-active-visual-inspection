@@ -1,0 +1,9 @@
+output/
+__pycache__/
+.git/
+build/
+install/
+log/
+review/
+*.zip
+*.egg-info/

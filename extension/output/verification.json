@@ -1,0 +1,84 @@
+{
+  "status": "PASS",
+  "episodes": 8,
+  "frames": 1003,
+  "maximum_distance_recompute_error_m": 4.349553077709345e-07,
+  "distance_tolerance_m": 1e-06,
+  "paired_trials": 16,
+  "bag_topic_counts": {
+    "teacher_3100": {
+      "/cmd_vel": 166,
+      "/imitation/sample": 133,
+      "/camera/image": 188,
+      "/clock": 3751,
+      "/odom": 532,
+      "/robot/world_pose": 527
+    },
+    "teacher_3101": {
+      "/camera/image": 178,
+      "/clock": 3543,
+      "/cmd_vel": 160,
+      "/imitation/sample": 128,
+      "/odom": 494,
+      "/robot/world_pose": 486
+    },
+    "teacher_3102": {
+      "/cmd_vel": 159,
+      "/imitation/sample": 127,
+      "/camera/image": 119,
+      "/clock": 2387,
+      "/odom": 339,
+      "/robot/world_pose": 329
+    },
+    "teacher_3103": {
+      "/camera/image": 178,
+      "/clock": 3543,
+      "/cmd_vel": 153,
+      "/imitation/sample": 120,
+      "/odom": 497,
+      "/robot/world_pose": 490
+    },
+    "teacher_3104": {
+      "/camera/image": 182,
+      "/clock": 3646,
+      "/odom": 520,
+      "/cmd_vel": 158,
+      "/imitation/sample": 125,
+      "/robot/world_pose": 511
+    },
+    "teacher_3105": {
+      "/camera/image": 176,
+      "/odom": 502,
+      "/clock": 3510,
+      "/cmd_vel": 157,
+      "/imitation/sample": 125,
+      "/robot/world_pose": 473
+    },
+    "teacher_3106": {
+      "/robot/world_pose": 508,
+      "/odom": 506,
+      "/imitation/sample": 122,
+      "/cmd_vel": 154,
+      "/clock": 3516,
+      "/camera/image": 175
+    },
+    "teacher_3107": {
+      "/robot/world_pose": 501,
+      "/odom": 479,
+      "/imitation/sample": 123,
+      "/cmd_vel": 155,
+      "/clock": 3313,
+      "/camera/image": 165
+    }
+  },
+  "checks": [
+    "SQLite message counts",
+    "episode split",
+    "clock monotonicity",
+    "finite action bounds",
+    "frozen model/source hashes",
+    "paired scene equality",
+    "independent physical distance",
+    "aggregate counts"
+  ]
+}

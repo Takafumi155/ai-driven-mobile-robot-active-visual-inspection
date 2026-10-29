@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "trials": 144,
+  "paired_scenes": 48,
+  "recomputed_camera_predictions": 214,
+  "world_position_samples": 10730,
+  "minimum_obstacle_clearance_m": 0.26220258192326806,
+  "maximum_saved_clock_interval_gap_s": 0.13500000000000156,
+  "contact_messages": 0,
+  "checks": [
+    "frozen model and source hashes",
+    "full 3-seed factor coverage",
+    "same scene inputs across policies",
+    "saved RGB inference independently reproduced",
+    "Gazebo world-position and odometry distances recalculated",
+    "clock-interval consistency",
+    "obstacle clearances",
+    "independent aggregate counts"
+  ]
+}
