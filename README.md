@@ -36,8 +36,6 @@ rosbag2で教師走行8回・1,003サンプルを収集し、目標との距離�
 - `Dockerfile` / `compose.yaml`：実行環境
 - `output/` / `extension/output/`：学習済みモデルと軽量な実験結果
 
-追加実験の概要と操作方法は [extension/README.md](extension/README.md) を参照してください。
-
 ## 実行例
 Ubuntu / WSL環境で、このフォルダを開いて実行します。
 
@@ -47,23 +45,5 @@ docker compose run --rm research python3 verify_submission.py
 bash extension/run.sh rviz
 ```
 
-新しい条件での実験は既存の出力を保護するため、別コピーで実施してください。動画・PDF・全画像・生rosbag2などの大容量データはローカル成果物に保存しており、GitHubにはすべてを含めていません。
-
 ## 限界
 既知の静的環境と限定された亀裂形状でのシミュレーション結果です。未知環境、実機での認識性能や安全性は未検証です。接触通知0だけでは衝突なしを保証できません。
-## 提出リポジトリの取得と軽量検証
-
-```bash
-git clone https://github.com/Takafumi155/second-look-submission.git
-cd second-look-submission
-python -m pip install numpy
-python verify_submission.py
-```
-
-Python 3.11以降を推奨します。この検証はROS・Docker不要で、保存済みのモデル、教師データ、16試行ログを読み取り専用で点検します。Gazeboを起動する動作確認とは異なります。元の `extension/verify.py` は非同梱の生rosbag2が必要です。
-
-Docker実行にはUbuntu / WSL2、稼働中のDocker Engineが必要です。まず上記の `extension/run.sh build` でベース画像と拡張画像を順に作成してください。実験1を再実行する場合は別コピーで既存の `output/` を退避してから、コンテナ内で `bash reproduce_simulation.sh` を実行します。実験2は別コピーで `bash extension/run.sh collect` → `dataset` → `train` → `evaluate` の順です。RVizの画面表示には別途X11等のGUI接続設定が必要です。
-
-動画・PDF・生rosbag2・全画像・実験1の全試行ログは同梱していません。動画URLとPDFは別途提出してください。元の保存結果の全検証にはこれらのローカル成果物が必要です。
-
-出典・依存は [ATTRIBUTION.md](ATTRIBUTION.md)、公開時の検査範囲と制約は [PUBLICATION_CHECK.md](PUBLICATION_CHECK.md) を参照してください。
